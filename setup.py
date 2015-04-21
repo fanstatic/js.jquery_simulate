@@ -40,7 +40,7 @@ setup(
         ],
     entry_points={
         'fanstatic.libraries': [
-            'jquery.simulate() = js.jquery_simulate:library',
+            'jquery.simulate = js.jquery_simulate:library',
             ],
         },
     )
